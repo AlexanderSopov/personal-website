@@ -1,0 +1,14 @@
+section(id=intro.title, class='page')
+  .title
+    h1=intro.title+"."
+  hr
+  h2=intro.content.h2
+  h3=intro.content.h3
+  .intro.ingress
+    - for(var i =0; i<intro.content.p.length; i++ )
+      if((i%2)==0)
+        .left-p
+          p!=intro.content.p[i]
+      else
+        .right-p
+          p!=intro.content.p[i]

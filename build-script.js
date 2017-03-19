@@ -5,12 +5,28 @@ var utils	= require('./lib/utils.js'),
 				options:{
 					filename:"index.pug",
 					compileDebug:true,
-					pretty:true
+					pretty:false
 				},
-				path: "./templates/index.pug"
-			};
+				path: "./dev/templates/index.pug"
+			},
+	babel 	= {
+		srcPath: "./dev/static/js/index.js",
+		destPath: "./dist/js/bundle.js",
+		presets: ["es2015"],
+		options: {
+			minified: true,
+			comments: false,
+		}
+	},
 
-utils.build(html, "./static/css/style.styl");
+	stylus = {
+		srcPath: "./dev/static/css/style.styl",
+		destPath:"./dist/css/style.css",
+		options: {compress:true}
+	}
+
+
+utils.build(html, stylus, babel);
 
 
 

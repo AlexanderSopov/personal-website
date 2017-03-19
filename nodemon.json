@@ -1,5 +1,5 @@
 {
     "verbose": true,
-    "ignore": ["build/*", "node_modules/*"],
+    "ignore": ["build/*", "node_modules/*", "dist/*"],
 	"ext": "js json styl pug"
 }

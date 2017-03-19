@@ -18,10 +18,15 @@
   },
   "homepage": "https://github.com/AlexanderSopov/personal-website#readme",
   "dependencies": {
-    "pug": "^0.1.0",
+    "pug": "^2.0.0-alpha7",
     "stylus": "^0.54.5"
   },
   "devDependencies": {
-    "nodemon": "^1.10.2"
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "nodemon": "^1.10.2",
+    "pug-lint": "^2.3.0"
   }
 }

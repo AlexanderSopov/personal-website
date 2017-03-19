@@ -1,0 +1,13 @@
+section(id=page.title, class=i==0 ? 'page active' : 'page')
+  .title
+    h1=page.title+"."
+  hr
+  .content-wrap
+    - for(var j=0; j<page.content.length;j++)
+      - var content = page.content[j];
+      div(id=content.h1, class=(j%2)==0 ? 'content left' : 'content')
+        h2=content.h1
+        h3=content.h2
+        - for(var k=0; k<content.p.length;k++)
+          - var p = content.p[k];
+            p=p

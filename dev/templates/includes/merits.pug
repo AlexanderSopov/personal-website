@@ -1,0 +1,11 @@
+section(id=page.title, class='page')
+  .title
+    h1=page.title+"."
+  hr
+  .content-wrap
+    - for(var j=0; j<page.content.length;j++)
+      - var content = page.content[j];
+      div(id="scroll-"+j)
+        h1=content.h1
+        h2=content.h2
+        p=content.p[0]

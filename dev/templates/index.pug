@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+  head
+    title= "Alexander Sopov - " + pages[0].title
+    meta(charset="utf-8")
+    meta(name="description", content="Personal Portfolio")
+    meta(name="author", content="Alexander Sopov")
+    meta(name="viewport", content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no")
+    link(href="https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Sans:300,400", rel="stylesheet")
+    style 
+      include ../../dist/css/style.css
+    script(src="https://code.jquery.com/jquery-2.2.4.min.js")
+    script
+      include ../../dist/js/bundle.js
+  body
+    //
+      HEADER STICKY, MENU AND LOGO
+    header.stickyHD
+      div#logo(onclick="script.nav.goTo(this)")
+        h3=logo+"."
+      div#navbar(onclick="script.nav.toggle()")
+        ul
+          - for (var i=0; i<pages.length;i++)
+            - var title = pages[i].title, url = "#"+title;
+            li(onclick="script.nav.goTo(this)", data-value=title, id=title+"-nav")
+              h3!= title+"."
+   
+    //
+      HEADER-IMG, SUPPOSED TO CHANGE BUT FUCK IT, KEEP IT STATIC ATM
+      ***
+    div#header-img
+      img(src="img/headerImg.jpg")
+    
+    //
+      BODY AND CONTAINER
+    div#body
+      .container
+
+        include includes/introduction.pug
+        - var page = pages[0];
+          include includes/merits.pug
+        - page = pages[1];
+          include includes/pages.pug
+        - page = pages[2];
+          include includes/pages.pug
+      include includes/footer.pug
+
+        
