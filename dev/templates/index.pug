@@ -7,6 +7,7 @@ html(lang="en")
     meta(name="author", content="Alexander Sopov")
     meta(name="viewport", content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no")
     link(href="https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Sans:300,400", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:300|Source+Code+Pro:600,900" rel="stylesheet")
     style 
       include ../../dist/css/style.css
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
@@ -20,29 +21,23 @@ html(lang="en")
         h3=logo+"."
       div#navbar(onclick="script.nav.toggle()")
         ul
-          - for (var i=0; i<activePage.sections.length;i++)
+          - for (var i=1; i<activePage.sections.length;i++)
             - var title = activePage.sections[i].title, url = "#"+activePage.title;
             li(onclick="script.nav.goTo(this)", data-value=title, id=title+"-nav")
-              h3!= title+"."
+              p!= title+"."
    
     //
       HEADER-IMG, SUPPOSED TO CHANGE BUT FUCK IT, KEEP IT STATIC ATM
       ***
-    div#header-img
-      img(src="img/headerImg.jpg")
-    
-    //
-      BODY AND CONTAINER
-    div#body
-      .container
-
-        include includes/introduction.pug
-        - var page = pages[0];
-          include includes/merits.pug
-        - page = pages[1];
-          include includes/pages.pug
-        - page = pages[2];
-          include includes/pages.pug
-      include includes/footer.pug
+    section#header-padding
+    section#header-img
+    include includes/introduction.pug
+    - var page = activePage.sections[0];
+    include includes/merits.pug
+    - page = activePage.sections[1];
+    include includes/pages.pug
+    - page = activePage.sections[2];
+    include includes/pages.pug
+    include includes/footer.pug
 
         
