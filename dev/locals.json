@@ -1,119 +1,109 @@
 {	"pages":{
 		"home":{
 			"filename":"index",
-			"sections":[{		
-				"title": "Alexander Sopov",
-				"content":{
-					"h2":"Not your usual engineer",
-					"h3": "I’m very lucky. I was born with many passions and I’ve been wise (some might say stubborn) enough to follow them throughout my life.",
-					"p": [
-						"<strong>I’ve been the</strong> swedish champion in heavy weight boxing, I’ve been a comedian on live TV and I’ve been a writer in two well-read blogs.",
-						"<strong>By some miracle,</strong> I also managed to leave those things behind, start all over and follow my biggest dream: To become an engineer."
-					]
+			"sections":[
+				{		
+					"title": "Alexander Sopov",
+					"content":{
+						"h2":"Not your usual engineer",
+						"h3": "If I'm proud of anything, it's that I have the audacity to dream big.",
+						"p": [
+							"<strong>I’ve been the</strong> swedish champion in heavy weight boxing, I’ve been a comedian on live TV and I’ve been a writer in two highly ranked blogs.",
+							"<strong>With mulish stubborness,</strong> I'm now chasing my biggest dream: Becoming an Entrepreneur in Software Engineering."
+						]
+					}
+				},{
+					"title":"Xp",
+					"ingress":"At the end of the day, what you wan't to know is what can I do? Well, seek no further. Below follows my merits and capabalities.",
+					"content": [{
+						"h1":"Qamcom Research & Technology",
+						"h2": "AR Developer, MS Hololens",
+						"p": [
+							"Working as a freelancer on developing medical applications for the Microsoft Hololens in Unity and Visual Basic Studio."
+						]
+					},{
+						"h1":"Qamcom Research & Technology",
+						"h2": "Front-End Developer",
+						"p": [
+							"Working as a freelancer on Qamcom.se (WIP)."
+						]
+					},{
+						"h1":"Bobby Studio",
+						"h2": "Fullstack Developer",
+						"p": [
+							"Node Js, Angular, Jquery, HTML & CSS, Mongoose, ExpressJS, AWS"
+						]
+					},{
+						"h1":"TeddyBear Studio",
+						"h2": "Fullstack Developer",
+						"p": [
+							"Developing a patented Content Management System for Static Sites"
+						]
+					}]
+				},{
+					"title":"Portfolio",
+					"content":  [{
+						"h1":"Web Development",
+						"h2": ["Front End","Back End"],
+						"p": [[
+							"Opinion and Philosophy.",
+							"Technology used",
+							"Tools Used"
+						],[
+							"Opinion and Philosophy.",
+							"Technology used",
+							"Tools Used"
+						]],
+						"a": ["github.com/AlexanderSopov/AlexanderSopov"]
+					},{
+						"h1":"Game Development",
+						"h2": ["Unity","VR/AR"],
+						"p": [[
+							"Opinion and Philosophy.",
+							"Technology used",
+							"Tools Used"
+						],[
+							"Opinion and Philosophy.",
+							"Technology used",
+							"Tools Used"
+						]],
+						"a": ["github.com/AlexanderSopov/AlexanderSopov"]
+					},{
+						"h1":"App Development",
+						"h2": ["Android","iOS"],
+						"p": [[
+							"Opinion and Philosophy.",
+							"Technology used",
+							"Tools Used"
+						],[
+							"Opinion and Philosophy.",
+							"Technology used",
+							"Tools Used"
+						]],
+						"a": ["github.com/AlexanderSopov/AlexanderSopov"]
+					}]
+				},{
+					"title":"Contact",
+					"ingress":"Ready to take a step further in our relationship? Come on, now, don't be shy - we're a happy bunch and we'd love to hear from you! Pick your favorite channel from below and see you soon.",
+					"content": [{
+						"h1":"Adress",
+						"h2": "Alexander Sopov",
+						"p": [
+							"Virvelvindsgatan 8, 417 02",
+							"Gothenburg, Sweden",
+							"+46 (0)707 589 600"
+						]
+					},{
+						"h1":"E-Mail",
+						"h2": "sopovalexander [at] gmail.com",
+						"p": [
+							"Github profile:",
+							"github.com/AlexanderSopov",
+							"[facebook], [instagram], [twitter]"
+						]				
+					}]
 				}
-			},{
-				"title":"Merits",
-				"ingress":"At the end of the day, what you wan't to know is what can I do? Well, seek no further. Below follows my merits and capabalities.",
-				"content": [{
-					"h1":"Bobby Studio",
-					"h2": "Fullstack Developer",
-					"p": [
-						"Node Js, Angular, Jquery, HTML & CSS, Mongoose, ExpressJS, AWS Transcoding, s3 and on and on"
-					]
-				},{
-					"h1":"Qamcom Research & Technology",
-					"h2": "Game Developer for the Microsoft Hololens",
-					"p": [
-						"Working as a freelancer on developing medical applications for the Microsoft Hololens in the 3D Engine Unity and Visual Basic Studio."
-					]
-				},{
-					"h1":"Qamcom Research & Technology",
-					"h2": "Front-End Developer",
-					"p": [
-						"Working as a freelancer on Qamcom.se (WIP). Current."
-					]
-				},{
-					"h1":"Zumbri",
-					"h2": "UX Designer",
-					"p": [
-						"Designing the UX for Zumbris web-application."
-					]
-				},{
-					"h1":"Amparo Solutions",
-					"h2": "Front-End Developer",
-					"p": [
-						"Designing the website for Amparosolutions.se (WIP)"
-					]
-				},{
-					"h1":"TeddyBear Studio",
-					"h2": "Owner, CEO & Fullstack Developer",
-					"p": [
-						"I’m running my own freelance business that is aiming to expand into a fully fledged Consultation Company. Progress is slow, but inevitable."
-					]
-				}]
-			},{
-				"title":"Xp",
-				"content":  [{
-					"h1":"Web Development",
-					"h2": ["Front End","Back End"],
-					"p": [[
-						"Opinion and Philosophy.",
-						"Technology used",
-						"Tools Used"
-					],[
-						"Opinion and Philosophy.",
-						"Technology used",
-						"Tools Used"
-					]],
-					"a": ["github.com/AlexanderSopov/AlexanderSopov"]
-				},{
-					"h1":"Game Development",
-					"h2": ["Unity","VR/AR"],
-					"p": [[
-						"Opinion and Philosophy.",
-						"Technology used",
-						"Tools Used"
-					],[
-						"Opinion and Philosophy.",
-						"Technology used",
-						"Tools Used"
-					]],
-					"a": ["github.com/AlexanderSopov/AlexanderSopov"]
-				},{
-					"h1":"App Development",
-					"h2": ["Android","iOS"],
-					"p": [[
-						"Opinion and Philosophy.",
-						"Technology used",
-						"Tools Used"
-					],[
-						"Opinion and Philosophy.",
-						"Technology used",
-						"Tools Used"
-					]],
-					"a": ["github.com/AlexanderSopov/AlexanderSopov"]
-				}]
-			},{
-				"title":"Contact",
-				"ingress":"Ready to take a step further in our relationship? Come on, now, don't be shy - we're a happy bunch and we'd love to hear from you! Pick your favorite channel from below and see you soon.",
-				"content": [{
-					"h1":"Adress",
-					"h2": "Alexander Sopov",
-					"p": [
-						"Virvelvindsgatan 8, 417 02",
-						"Gothenburg, Sweden",
-						"+46 (0)707 589 600"
-					]
-				},{
-					"h1":"E-Mail",
-					"h2": "sopovalexander [at] gmail.com",
-					"p": [
-						"Github profile:",
-						"github.com/AlexanderSopov",
-						"[facebook], [instagram], [twitter]"
-					]				
-				}]
-			}]
+			]
 		}
 	},
 	"logo":"Alexander",

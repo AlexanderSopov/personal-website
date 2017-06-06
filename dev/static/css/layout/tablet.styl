@@ -1,0 +1,39 @@
+
+
+@media only screen and (min-width 769px)
+	headerHeight = 100px
+	header
+		position fixed
+		top 0px
+		height headerHeight
+		#logo
+			width (100% / 2.5)
+			h3
+				margin-top 30px
+		#navbar ul
+			li
+				height headerHeight
+				h3
+					font-size 2em
+					margin-top 35px
+	#header-padding
+		height headerHeight
+	#header-img
+		background-attachment fixed
+		background-position 0 headerHeight
+		background-size 100%
+	width = 750px
+	margin = calc( (100% - 750px) / 2 )
+	.page .content-wrap
+		display flex
+		flex-wrap wrap
+		.content
+			padding 25px
+			width calc(50% - 50px)
+			text-align left
+		.left
+			text-align right
+	.ingress p
+		font-size 2em
+	#footer
+		min-height calc(100vh - 200px)

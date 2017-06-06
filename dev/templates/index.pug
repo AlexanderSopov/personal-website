@@ -31,13 +31,20 @@ html(lang="en")
       ***
     section#header-padding
     section#header-img
-    include includes/introduction.pug
-    - var page = activePage.sections[0];
-    include includes/merits.pug
-    - page = activePage.sections[1];
-    include includes/pages.pug
-    - page = activePage.sections[2];
-    include includes/pages.pug
-    include includes/footer.pug
+    .white
+      include includes/introduction.pug
+      - var page = activePage.sections[1], color="red";
+      include modules/angled-line.pug
+    .red
+      include includes/merits.pug
+      - page = activePage.sections[2], color="white";
+      include modules/angled-line.pug
+    .white
+      include includes/pages.pug
+      - page = activePage.sections[3];
+    .white
+      include includes/pages.pug 
+    .white
+      include includes/footer.pug
 
         
