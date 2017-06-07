@@ -2,8 +2,8 @@
 section(id=intro.title, class='page')
   .title
     h1=intro.title+"."
-  h2=intro.content.h2
-  h3=intro.content.h3
+  h3=intro.content.h2
+  br
   .intro.ingress
     - for(var i =0; i<intro.content.p.length; i++ )
       if((i%2)==0)
@@ -12,3 +12,5 @@ section(id=intro.title, class='page')
       else
         .right-p
           p!=intro.content.p[i]
+  br
+  h2=intro.content.h3

@@ -27,10 +27,11 @@ body
 .black
 	background-color #1a1b20
 header
+	position fixed
+	background rgba(255,255,255,0.95)
 	overflow hidden
 	transition all animationTime
 	z-index 3
-	background white
 	height headerHeight
 	#logo
 		line-height "calc(%s - 35px)" % headerHeight
@@ -73,7 +74,7 @@ header
  */
 
 #header-padding
-	padding 0
+	height headerHeight
 #header-img
 	background url("img/headerImg-2-mini.jpg") no-repeat center center
 	height 150px
@@ -85,6 +86,11 @@ header
 		margin-top 0px
 .title
 	border-bottom 1.5px solid grey
+
+.module
+	display none
+.active
+	display block
 
 /*
  *	FOOTER
