@@ -41,10 +41,13 @@ html(lang="en")
       include modules/angled-line.pug
     .white
       include includes/pages.pug
-      - page = activePage.sections[3];
-    .white
+      - page = activePage.sections[3], color="blue";
+      include modules/reversed-line.pug
+    .blue
       include includes/pages.pug 
-    .white
+      - var color="#1a1b20";
+      include modules/reversed-line.pug
+    .black
       include includes/footer.pug
 
         
