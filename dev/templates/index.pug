@@ -8,17 +8,16 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no")
     link(href="https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Sans:300,400", rel="stylesheet")
     link(href="https://fonts.googleapis.com/css?family=Montserrat:300|Source+Code+Pro:600,900" rel="stylesheet")
-    style 
-      include ../../dist/css/style.css
+    link(href="css/style.css" rel="stylesheet")
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
-    script
-      include ../../dist/js/bundle.js
+    script(src="js/bundle.js")
   body
     //
       HEADER STICKY, MENU AND LOGO
     header.stickyHD
       div#logo(onclick="script.nav.goTo(this)")
         h3=logo+"."
+    //
       div#navbar(onclick="script.nav.toggle()")
         ul
           - for (var i=1; i<activePage.sections.length;i++)
@@ -30,23 +29,18 @@ html(lang="en")
       HEADER-IMG, SUPPOSED TO CHANGE BUT FUCK IT, KEEP IT STATIC ATM
       ***
     section#header-padding
-    section#header-img
+    //- section#header-img
     .white
       include includes/introduction.pug
-      - var page=activePage.sections[1], color="red";
+      - var page=activePage.sections[1], color="#1a1b20";
       include modules/angled-line.pug
-    .red
+    .black
       include includes/merits.pug
       - page = activePage.sections[2], color="white";
       include modules/angled-line.pug
     .white
-      include includes/pages.pug
+      include includes/xp.pug
       - page = activePage.sections[3], color="blue";
-      include modules/reversed-line.pug
-    .blue
-      include includes/pages.pug 
-      - var color="#1a1b20";
-      include modules/reversed-line.pug
     .black
       include includes/footer.pug
 

@@ -33,6 +33,7 @@ header
 	transition all animationTime
 	z-index 3
 	height headerHeight
+	border-bottom 1px solid rgba(50,50,50,0.2)
 	#logo
 		line-height "calc(%s - 35px)" % headerHeight
 		float left
@@ -76,19 +77,31 @@ header
 #header-padding
 	height headerHeight
 #header-img
-	background url("img/headerImg-2-mini.jpg") no-repeat center center
-	height 150px
+	background url("img/headerImg-3-micro.jpg") no-repeat center headerHeight
+	background-attachment fixed
+	height 200px
 
 .page
 	padding padding-std
 	text-align center
 	.content
 		margin-top 0px
+.intro
+	margin-bottom 35px
+	margin-top 25px
 .title
 	border-bottom 1.5px solid grey
 
 .module
 	display none
+	table
+		tr
+			display flex
+			flex-wrap wrap
+		td
+			margin 0
+			width 100%
+			vertical-align top
 .active
 	display block
 
@@ -97,11 +110,13 @@ header
  */
 
 #footer
-	padding 20px
 	text-align left
 	color #fff
-	min-height 300px
 	h3
 		font-weight 300
 		font-family 'Josefin Sans', sans-serif
-		
+
+@media only screen and (min-width 570px)
+	#header-img
+		background-image url("img/headerImg-3-mini.jpg")
+		height 250px

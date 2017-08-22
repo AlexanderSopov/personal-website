@@ -1,4 +1,5 @@
-{	"pages":{
+{
+	"pages":{
 		"home":{
 			"filename":"index",
 			"sections":[
@@ -6,14 +7,15 @@
 					"title": "Alexander Sopov",
 					"content":{
 						"h2":"Not your usual engineer",
-						"h3": "Have the audacity to dream BIG",
 						"p": [
 							"<strong>A two-times Swedish Champion</strong> in Heavy Weight Boxing. Comedian on live TV and a writer in highly ranked blogs.",
-							"<strong>Currently tackling</strong> my biggest challenge yet: Being an Entrepreneur in Software Engineering."
-						]
+							"<strong>I don't like to promote myself.</strong> Instead, I make sure to engage myself one hundred percent in whatever I'm doing and strive to become the best.",
+							"<strong>And allow the results to speak for themselves.</strong>"
+						],
+						"h3": ""
 					}
 				},{
-					"title":"Xp",
+					"title":"Clients",
 					"ingress":"At the end of the day, what you wan't to know is what can I do? Well, seek no further. Below follows my merits and capabalities.",
 					"content": [{
 						"h1":"Qamcom Research & Technology",
@@ -41,57 +43,55 @@
 						]
 					}]
 				},{
-					"title":"Portfolio",
-					"content":  [{
+					"title":"Xp",
+					"industries":  [{
 						"h1":"Web Development",
-						"h2": ["Front End","Back End"],
-						"p": [[
-							"Opinion and Philosophy.",
-							"Technology used",
-							"Tools Used"
-						],[
-							"Opinion and Philosophy.",
-							"Technology used",
-							"Tools Used"
-						]],
-						"a": ["github.com/AlexanderSopov/AlexanderSopov"]
+						"jobs":[{
+							"h2": "Front End Designer",
+							"h3": "Building User Interfaces",
+							"p": [
+								"Interfaces are viewed as controls to a computer program.",
+								"It's an accurate picture, of course, but the way I view it is different.",
+								"Software is not a monitor, mouse and a keyboard. It's a biological artifact, and the interface is the plug to our brain"
+							]
+						},{
+							"h2": "Back End Architect",
+							"h3": "Orchestrating The Opera",
+							"p": [
+								"I imagine architecting backend systems to be like orchestrating an opera.",
+								"Every application consists of modular parts, each with it's own purpose and function.",
+								"My job is to make these parts play in concerto and harmony, creating a beatiful machinery that sings in synch."
+							]
+						}]
 					},{
 						"h1":"Game Development",
-						"h2": ["Unity","VR/AR"],
-						"p": [[
-							"Opinion and Philosophy.",
-							"Technology used",
-							"Tools Used"
-						],[
-							"Opinion and Philosophy.",
-							"Technology used",
-							"Tools Used"
-						]],
-						"a": ["github.com/AlexanderSopov/AlexanderSopov"]
-					},{
-						"h1":"App Development",
-						"h2": ["Android","iOS"],
-						"p": [[
-							"Opinion and Philosophy.",
-							"Technology used",
-							"Tools Used"
-						],[
-							"Opinion and Philosophy.",
-							"Technology used",
-							"Tools Used"
-						]],
-						"a": ["github.com/AlexanderSopov/AlexanderSopov"]
+						"jobs":[{
+							"h2": "Unity",
+							"h3": "Building User Interfaces",
+							"p": [
+								"Interfaces are viewed as controls to a computer program.",
+								"It's an accurate picture, of course, but the way I view it is different.",
+								"Software is not a monitor, mouse and a keyboard. It's a biological artifact, and the interface is the plug to our brain"
+							]
+						},{
+							"h2": "VR/AR",
+							"h3": "Orchestrating The Opera",
+							"p": [
+								"Interfaces are viewed as controls to a computer program.",
+								"It's an accurate picture, of course, but the way I view it is different.",
+								"Software is not a monitor, mouse and a keyboard. It's a biological artifact, and the interface is the plug to our brain"
+							]
+						}]
 					}]
 				},{
 					"title":"Contact",
 					"ingress":"Ready to take a step further in our relationship? Come on, now, don't be shy - we're a happy bunch and we'd love to hear from you! Pick your favorite channel from below and see you soon.",
 					"content": [{
-						"h1":"Adress",
-						"h2": "Alexander Sopov",
+						"h1":"Alexander Sopov",
 						"p": [
 							"Virvelvindsgatan 8, 417 02",
 							"Gothenburg, Sweden",
-							"+46 (0)707 589 600"
+							"requests@alexandersopov.se"
 						]
 					},{
 						"h1":"E-Mail",

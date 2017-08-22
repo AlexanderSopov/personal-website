@@ -1,0 +1,18 @@
+section(id=page.title, class=i==0 ? 'page active' : 'page')
+  .title
+    h1=page.title+"."
+  .content-wrap
+    - for(var j=0; j<page.industries.length;j++)
+      - var industry = page.industries[j];
+      div(id=industry.h1, class=j==0 ? 'module active' : 'module')
+        h2=industry.h1
+        table
+          tr
+            - for(var n=0; n<industry.jobs.length; n++)
+              - var job = industry.jobs[n];
+              td
+                h3=job.h2
+                h4=job.h3
+                - for(var k=0; k<job.p.length;k++)
+                  - var p = job.p[k];
+                    p=p
