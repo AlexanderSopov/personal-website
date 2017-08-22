@@ -13,7 +13,7 @@ body
  *	HEADER
  */
  
-.page, header
+.page
 	padding 0 padding-std
 	width "calc(100% - %s * 2)" % padding-std
 .red 
@@ -27,6 +27,7 @@ body
 .black
 	background-color #1a1b20
 header
+	width 100%
 	position fixed
 	background rgba(255,255,255,0.95)
 	overflow hidden
@@ -43,6 +44,7 @@ header
 		height 100%
 		h3
 			margin-top 25px
+			margin-left padding-std
 			height inherit
 	#navbar
 		float left

@@ -1,26 +1,22 @@
-
-
 @media only screen and (min-width 768px)
-	headerHeight = 100px
-	paddingStd = 125px
-	#header-img
-		background url("img/headerImg-3-medium.jpg") no-repeat center headerHeight
-		background-attachment fixed
-		height 300px
+	headerHeight = 120px
+	_width = 500px
 	header
 		height headerHeight
 		#logo
-			width (100% / 2.5)
+			width "calc( (100% - %s) / 2)" % _width
 			h3
-				margin-top 30px
+				font-size 1.5em
+				margin-top 60px
+				margin-left 40px
 		#navbar ul
 			li
 				height headerHeight
 	#header-padding
 		height headerHeight
 	.page
-		padding paddingStd
-		width "calc(100% - %s * 2)" % paddingStd
+		width _width
+		padding "100px calc( (100% - %s) / 2)" % _width
 		
 	.module
 		table
