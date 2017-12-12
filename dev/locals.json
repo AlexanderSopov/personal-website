@@ -5,12 +5,13 @@
 			"sections":[
 				{		
 					"title": "Alexander Sopov",
+					"id":"introduction",
 					"content":{
 						"h2":"Not your usual engineer",
 						"p": [
 							"<strong>A two-times Swedish Champion</strong> in Heavy Weight Boxing. Comedian on live TV and a writer in highly ranked blogs.",
-							"<strong>I don't like to promote myself.</strong> Instead, I make sure to engage myself one hundred percent in whatever I'm doing and strive to become the best.",
-							"<strong>And allow the results to speak for themselves.</strong>"
+							"<strong>It's fair to say I'm not your usual engineer.</strong> I'm well spoken, I focus on the big picture and I bring a wide range of skills to the table.",
+							"<strong>I specialise in understanding your needs</strong> and communicating the best possible solutions in a way that saves time and energy, enabling you to focus on your mission."
 						],
 						"h3": ""
 					}
@@ -66,16 +67,18 @@
 					},{
 						"h1":"Game Development",
 						"jobs":[{
-							"h2": "Unity",
-							"h3": "Building User Interfaces",
+							"h2": "Game Design",
+							"h3": "Designing Interactive Entertainment",
 							"p": [
-								"Interfaces are viewed as controls to a computer program.",
-								"It's an accurate picture, of course, but the way I view it is different.",
-								"Software is not a monitor, mouse and a keyboard. It's a biological artifact, and the interface is the plug to our brain"
+								"Games unfold through the players interactions with the world, making him or her a character of the story",
+								"Designing games demands the focus to condense an endless amount of complexities into simple consequences that feels believeable and immerses tha player into the world.",
+								"As such, it demands the capacity to balance variation of possibility with quality of outcome; the player needs to feel like they can do anything, yet every move he or she does needs to have a believable consequence.",
+								"That's what good game design is all about"
+
 							]
 						},{
 							"h2": "VR/AR",
-							"h3": "Orchestrating The Opera",
+							"h3": "Scripting the Gameplay Mechanics",
 							"p": [
 								"Interfaces are viewed as controls to a computer program.",
 								"It's an accurate picture, of course, but the way I view it is different.",
@@ -91,7 +94,7 @@
 						"p": [
 							"Virvelvindsgatan 8, 417 02",
 							"Gothenburg, Sweden",
-							"requests@alexandersopov.se"
+							"sopovalexander [at] gmail.com"
 						]
 					},{
 						"h1":"E-Mail",
