@@ -1,10 +1,10 @@
 section(id=page.title, class=i==0 ? 'page active' : 'page')
   .title
     h1=page.title+"."
-  .content-wrap
+  .content-wrap.slider#xp-slider
     - for(var j=0; j<page.industries.length;j++)
       - var industry = page.industries[j];
-      div(id=industry.h1, class=j==0 ? 'module active' : 'module')
+      div(id=industry.h1, class=j==0 ? 'active' : '').module.slide-cont.slide-card
         h2=industry.h1
         table
           tr
@@ -16,3 +16,13 @@ section(id=page.title, class=i==0 ? 'page active' : 'page')
                 - for(var k=0; k<job.p.length;k++)
                   - var p = job.p[k];
                     p=p
+    .slide-dots
+      .arrow
+        .left-arrow(onclick="script.slider.goLeft(\"xp-slider\");")
+      .btn-container
+        .dots-container
+          - for(var j=0; j<industry.jobs.length;j++)
+            - ;
+            .dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"xp-slider\");")
+      .arrow
+        .right-arrow(onclick="script.slider.goRight(\"xp-slider\");")

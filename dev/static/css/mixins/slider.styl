@@ -1,0 +1,160 @@
+
+bg-light-blue = rgb(12,158,209)
+
+.slider
+	position relative
+	overflow hidden
+	// min-height 675px
+	padding-bottom 60px
+	.slide-cont
+		position relative
+		left 100%
+		opacity 0
+		-webkit-transition .4s ease-out
+		-moz-transition .4s ease-out
+		-o-transition .4s ease-out
+		transition .4s ease-out
+	.slide-cont.left
+		left -100%
+	.slide-cont.active
+		-webkit-transition-delay .2s
+		-moz-transition-delay .2s
+		-o-transition-delay .2s
+		transition-delay .2s
+		-webkit-transition-duration .9s
+		-moz-transition-duration .9s
+		-o-transition-duration .9s
+		transition-duration .9s
+		opacity 1
+		left 0
+	.slide-cont.fast-speed
+		-webkit-transition-delay 0s !important
+		-moz-transition-delay 0s !important
+		-o-transition-delay 0s !important
+		transition-delay 0s !important
+		-webkit-transition-duration 0s !important
+		-moz-transition-duration 0s !important
+		-o-transition-duration 0s !important
+		transition-duration 0s !important
+	.slide-dots
+		position absolute
+		vertical-align bottom
+		bottom 0
+		left 0
+		height auto
+		width calc(100% - 40px)
+		padding-right 20px
+		padding-left 20px
+		> div
+			float left
+			display inline-block
+		.btn-container
+			position relative
+			height 50px
+			width 80%
+			.dots-container
+				text-align center
+				.dot
+					margin auto
+					width 16px
+					height 16px
+					border 2px solid grey
+					border-radius 16px
+					margin 6.5px
+					display inline-block
+					background-color rgba(0,0,0,0)
+					cursor pointer
+					position relative
+					top 0
+				.dot.active
+					background-color grey
+		.arrow
+			width 10%
+			cursor pointer
+			> div
+				margin 6.5px
+				width 0 
+				height 0 
+				border-top 10px solid transparent
+				border-bottom 10px solid transparent
+			.right-arrow 
+				border-left 12px solid grey
+				float right
+			.left-arrow 
+				border-right 12px solid grey 
+				
+	img
+		max-height 75px
+		width auto
+		margin auto
+		max-width calc(100% - 40px)
+
+.slide-layout
+	padding 20px 0 50px 0
+.md-fixed
+	width 280px
+	margin auto
+.slide-card
+	height auto
+	width calc(100% - 40px)
+	padding 20px
+	padding-top 40px
+	
+	
+@media only screen and (min-width 375px)
+	.slide-layout
+		padding-top 30px
+	.md-fixed
+		width 320px
+	.slider
+		// min-height 600px
+		
+@media only screen and (min-width 410px)
+	.slide-layout
+		padding-top 50px
+
+@media only screen and (min-width 500px)
+	.md-fixed
+		width 400px
+		
+@media only screen and (min-width 750px)
+	.slide-layout
+		padding 80px 0 100px 0
+	.md-fixed
+		width 600px
+	// .slider
+	// 	// min-height 450px
+	// 	.slide-dots 
+	// 		.dots-container .dot
+	// 			width 12px
+	// 			border-radius 12px
+	// 			height 12px
+	// 			margin 8px
+
+@media only screen and (min-width 1024px)
+	.md-fixed
+		width 850px
+	.slider
+		// min-height 600px
+		
+@media only screen and (min-width 1280px)
+	.slide-layout
+		padding 100px 0 50px 0
+	// .slider
+	// 	// min-height 650px
+	// 	.slide-dots .dots-container	.dot
+	// 		width 18px
+	// 		border-radius 18px
+	// 		height 18px
+	// 		margin 12px
+	.md-fixed
+		width 1000px
+@media only screen and (min-width 1920px)
+	.slide-layout
+		padding 150px 0 75px 0
+	.slider
+		// min-height 500px
+	.md-fixed
+		width 1200px
+		
+

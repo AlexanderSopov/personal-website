@@ -1,7 +1,8 @@
-window.script = require ('./script');
-
+//window.script = require ('./script');
 $(document).ready(function(){
-	$("#header-img img").load(function() {script.init();});
+	// $("#header-img img").load(function() {script.init();});
+	window.script = require ('./script');
+	script.init();
 });
 
 

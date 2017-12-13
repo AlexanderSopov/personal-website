@@ -9,7 +9,7 @@
 					"content":{
 						"h2":"Not your usual engineer",
 						"p": [
-							"<strong>A two-times Swedish Champion</strong> in Heavy Weight Boxing. Comedian on live TV and a writer in highly ranked blogs.",
+							"<strong>A two-times Swedish Champion in Heavy Weight Boxing.</strong> Comedian on live TV and a writer in highly ranked blogs.",
 							"<strong>It's fair to say I'm not your usual engineer.</strong> I'm well spoken, I focus on the big picture and I bring a wide range of skills to the table.",
 							"<strong>I specialise in understanding your needs</strong> and communicating the best possible solutions in a way that saves time and energy, enabling you to focus on your mission."
 						],
@@ -20,27 +20,23 @@
 					"ingress":"At the end of the day, what you wan't to know is what can I do? Well, seek no further. Below follows my merits and capabalities.",
 					"content": [{
 						"h1":"Qamcom Research & Technology",
-						"h2": "AR Developer, MS Hololens",
+						"h2": "Signal Processing Experts",
 						"p": [
-							"Working as a freelancer on developing medical applications for the Microsoft Hololens in Unity and Visual Basic Studio."
-						]
-					},{
-						"h1":"Qamcom Research & Technology",
-						"h2": "Front-End Developer",
-						"p": [
-							"Working as a freelancer on Qamcom.se (WIP)."
-						]
+							"Qamcom is a world-class expert in signal processing and they work in a spectrum of applications, ranging from communication technology to autonomic drive. Most of their employees are PhD's or industry veterans and so require a high precision on their orders and demand quality in the work that I do for them. As such, I apreciate our collaboration since it pushes me to my limits every time, which is where I love to live."
+						],
+						"url":"http://qamcom.se"
 					},{
 						"h1":"Bobby Studio",
-						"h2": "Fullstack Developer",
+						"h2": "Digital Content Artists",
 						"p": [
-							"Node Js, Angular, Jquery, HTML & CSS, Mongoose, ExpressJS, AWS"
-						]
+							"I'm a software engineer. These guys are artists. They make the web, and the brands that populate it, beautiful and cool, telling their story in a way that captivates the audience. Working with them is inspirational, fun and, for lack of better words, beautiful."
+						],
+						"url":"http://bobby.se"
 					},{
 						"h1":"TeddyBear Studio",
-						"h2": "Fullstack Developer",
+						"h2": "Content Management System",
 						"p": [
-							"Developing a patented Content Management System for Static Sites"
+							"Most blogs (and other websites, too) are using a CMS like Wordpress. These tools are great if you're a news outlet or online media company that generates content every day. If that's not the case, then you're really slowing down your users experience and burdering your finances with the hosting... But it's so simple to use, right? Well, what if there was a CMS for the middle guy? A CMS that pre-compiles websites into static ones that gets served to the user in an instant? Well, we all know that googles SEO-algorithms would love that, and so too would the customers. This is what Teddybear Studios, a Gothenburg based startup is working on."
 						]
 					}]
 				},{
@@ -51,17 +47,17 @@
 							"h2": "Front End Designer",
 							"h3": "Building User Interfaces",
 							"p": [
-								"Interfaces are viewed as controls to a computer program.",
-								"It's an accurate picture, of course, but the way I view it is different.",
-								"Software is not a monitor, mouse and a keyboard. It's a biological artifact, and the interface is the plug to our brain"
+								"I've designed UX for applications that are critical, daily tools for 200 engineers.",
+								"Every decision I took would result in either relieve or frustration for the user and that responsibility required diligence on my part.",
+								"Condensing those 200 engineers down to a couple of archetypes, and designing the UX to fit those perfectly was a journey, and taught me the importance of listening and empathizing with different types of brains, backgrounds and experiences."
 							]
 						},{
 							"h2": "Back End Architect",
-							"h3": "Orchestrating The Opera",
+							"h3": "Making computers compute correctly",
 							"p": [
-								"I imagine architecting backend systems to be like orchestrating an opera.",
-								"Every application consists of modular parts, each with it's own purpose and function.",
-								"My job is to make these parts play in concerto and harmony, creating a beatiful machinery that sings in synch."
+								"I've designed web-applications for large scale operations.",
+								"Stability, Security and Simplicity are the values I keep in the forefront of everything I design.",
+								"My job as a backend engineer is to make sure that no one ever thinks of me, since that is a telltale sign that everything works as it should, so perfectly that it's taken for granted as magic."
 							]
 						}]
 					},{
@@ -71,18 +67,20 @@
 							"h3": "Designing Interactive Entertainment",
 							"p": [
 								"Games unfold through the players interactions with the world, making him or her a character of the story",
-								"Designing games demands the focus to condense an endless amount of complexities into simple consequences that feels believeable and immerses tha player into the world.",
+								"Designing games demands the focus to condense an endless amount of complexities into simple consequences that feels believeable and immerses the player into the world.",
 								"As such, it demands the capacity to balance variation of possibility with quality of outcome; the player needs to feel like they can do anything, yet every move he or she does needs to have a believable consequence.",
 								"That's what good game design is all about"
 
 							]
 						},{
 							"h2": "VR/AR",
-							"h3": "Scripting the Gameplay Mechanics",
+							"h3": "The next revolution in Simulated Reality",
 							"p": [
-								"Interfaces are viewed as controls to a computer program.",
-								"It's an accurate picture, of course, but the way I view it is different.",
-								"Software is not a monitor, mouse and a keyboard. It's a biological artifact, and the interface is the plug to our brain"
+								"There are psychologists who believe our capacity to tell stories helped us survive.",
+								"In their view, stories are simulated realities, abstracting the meta truths of life and running experiments on how to solve the issues and benefit the rewards.",
+								"Games are the next step of that, and VR/AR the next step of games.",
+								"I am currently experimenting with different solutions to the existing problems of Navigation and Interaction inside the 3D world and I'm making headway in solving some deep issues.",
+								"Contact me for more information!"
 							]
 						}]
 					}]

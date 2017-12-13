@@ -1,10 +1,22 @@
 section(id=page.title).page.right-aligned
 	.title
 		h1=page.title+"."
-	.content-wrap
+	.content-wrap.slider#clients
 		- for(var j=0; j<page.content.length;j++)
 			- var content = page.content[j];
-			div(id="scroll-"+j, class=j==0 ? 'module active' : 'module')
-				h2=content.h1
-				h3=content.h2
+			div(class=j==0 ? 'active' : '').module.slide-cont.slide-card
+				h2
+					a(href=content.url).no-decor=content.h1
+				h3
+					a(href=content.url).no-decor=content.h2
 				p=content.p[0]
+		.slide-dots
+			.arrow
+				.left-arrow(onclick="script.slider.goLeft(\"clients\");")
+			.btn-container
+				.dots-container
+					- for(var j=0; j<page.content.length;j++)
+						- ;
+						.dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"clients\");")
+			.arrow
+				.right-arrow(onclick="script.slider.goRight(\"clients\");")
