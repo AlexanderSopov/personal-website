@@ -11,12 +11,12 @@ section(id=page.title).page.right-aligned
 					a(href=content.url).no-decor=content.h2
 				p=content.p[0]
 		.slide-dots
-			.arrow
-				.left-arrow(onclick="script.slider.goLeft(\"clients\");")
+			.arrow(onclick="script.slider.goLeft(\"clients\");")
+				.left-arrow
 			.btn-container
 				.dots-container
 					- for(var j=0; j<page.content.length;j++)
 						- ;
 						.dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"clients\");")
-			.arrow
-				.right-arrow(onclick="script.slider.goRight(\"clients\");")
+			.arrow(onclick="script.slider.goRight(\"clients\");")
+				.right-arrow

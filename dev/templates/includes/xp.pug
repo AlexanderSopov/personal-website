@@ -17,12 +17,12 @@ section(id=page.title, class=i==0 ? 'page active' : 'page')
                   - var p = job.p[k];
                     p=p
     .slide-dots
-      .arrow
-        .left-arrow(onclick="script.slider.goLeft(\"xp-slider\");")
+      .arrow(onclick="script.slider.goLeft(\"xp-slider\");")
+        .left-arrow
       .btn-container
         .dots-container
           - for(var j=0; j<industry.jobs.length;j++)
             - ;
             .dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"xp-slider\");")
-      .arrow
-        .right-arrow(onclick="script.slider.goRight(\"xp-slider\");")
+      .arrow(onclick="script.slider.goRight(\"xp-slider\");")
+        .right-arrow
