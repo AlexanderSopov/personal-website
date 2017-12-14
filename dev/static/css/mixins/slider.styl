@@ -1,5 +1,4 @@
 
-bg-light-blue = rgb(12,158,209)
 
 .slider
 	position relative
@@ -58,7 +57,7 @@ bg-light-blue = rgb(12,158,209)
 					margin auto
 					width 16px
 					height 16px
-					border 2px solid grey
+					border 2px solid #1a1b20
 					border-radius 16px
 					margin 6.5px
 					display inline-block
@@ -67,7 +66,7 @@ bg-light-blue = rgb(12,158,209)
 					position relative
 					top 0
 				.dot.active
-					background-color grey
+					background-color #1a1b20
 		.arrow
 			width 10%
 			cursor pointer
@@ -78,10 +77,10 @@ bg-light-blue = rgb(12,158,209)
 				border-top 10px solid transparent
 				border-bottom 10px solid transparent
 			.right-arrow 
-				border-left 12px solid grey
+				border-left 12px solid #1a1b20
 				float right
 			.left-arrow 
-				border-right 12px solid grey 
+				border-right 12px solid #1a1b20 
 				
 	img
 		max-height 75px
@@ -98,10 +97,7 @@ bg-light-blue = rgb(12,158,209)
 	height auto
 	width calc(100% - 40px)
 	padding 20px
-	padding-top 40px
 	
-	
-@media only screen and (min-width 375px)
 	.slide-layout
 		padding-top 30px
 	.md-fixed
@@ -109,6 +105,18 @@ bg-light-blue = rgb(12,158,209)
 	.slider
 		// min-height 600px
 		
+.slide-dots.white-slider
+	.btn-container
+		.dots-container
+			.dot.active
+				background-color white
+			.dot
+				border-color white
+	.arrow
+		.right-arrow 
+			border-left-color white
+		.left-arrow 
+			border-right-color white
 @media only screen and (min-width 410px)
 	.slide-layout
 		padding-top 50px

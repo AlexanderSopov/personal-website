@@ -9,7 +9,9 @@ section(id=page.title).page.right-aligned
 					a(href=content.url).no-decor=content.h1
 				h3
 					a(href=content.url).no-decor=content.h2
-				p=content.p[0]
+				- for(var i=0; i<content.p.length;i++)
+					- var par = content.p[i];
+					p=par
 		.slide-dots
 			.arrow(onclick="script.slider.goLeft(\"clients\");")
 				.left-arrow

@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
   head
-    title= "Alexander Sopov - " + activePage.title
+    title= "Alexander - " + activePage.title
     meta(charset="utf-8")
     meta(name="description", content="Personal Portfolio")
     meta(name="author", content="Alexander Sopov")
@@ -42,7 +42,7 @@ html(lang="en")
       include modules/angled-line.pug
     .white
       - var page=activePage.sections[1], color="#1a1b20";
-      include includes/merits.pug
+      include includes/clients.pug
       - page = activePage.sections[3], color="blue";
     .black
       include includes/footer.pug
