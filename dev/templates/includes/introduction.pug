@@ -1,14 +1,16 @@
 - var intro = activePage.sections[0];
-section(id=intro.id).page.left-aligned
-  .title
-    h1=intro.title+"."
-  h3=intro.content.h2
-  .intro
-    - for(var i =0; i<intro.content.p.length; i++ )
-      if((i%2)==0)
-        .left-p
-          p!=intro.content.p[i]
-      else
-        .right-p
-          p!=intro.content.p[i]
-  h2=intro.content.h3
+section(id=intro.id)
+  .page.left-aligned
+    .title
+      h1=intro.title+"."
+    h3=intro.content.h2
+    .intro
+      - for(var i =0; i<intro.content.p.length; i++ )
+        if((i%2)==0)
+          .left-p
+            p!=intro.content.p[i]
+        else
+          .right-p
+            p!=intro.content.p[i]
+    h2=intro.content.h3
+    

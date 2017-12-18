@@ -1,7 +1,7 @@
 module.exports = (function(){
 	var sliders = $(".slider");
 	var second = 1000;
-	var timeout = 40*second/1;
+	var timeout = 240*second/1;
 	var fadeout = 1*second;
 	var sliderObj = {};
 	

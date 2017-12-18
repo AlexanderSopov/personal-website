@@ -1,24 +1,25 @@
-section(id=page.title).page.right-aligned
-	.title
-		h1=page.title+"."
-	.content-wrap.slider#clients
-		- for(var j=0; j<page.content.length;j++)
-			- var content = page.content[j];
-			div(class=j==0 ? 'active' : '').module.slide-cont.slide-card
-				h2
-					a(href=content.url).no-decor=content.h1
-				h3
-					a(href=content.url).no-decor=content.h2
-				- for(var i=0; i<content.p.length;i++)
-					- var par = content.p[i];
-					p=par
-		.slide-dots
-			.arrow(onclick="script.slider.goLeft(\"clients\");")
-				.left-arrow
-			.btn-container
-				.dots-container
-					- for(var j=0; j<page.content.length;j++)
-						- ;
-						.dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"clients\");")
-			.arrow(onclick="script.slider.goRight(\"clients\");")
-				.right-arrow
+section(id=page.title).white
+	.page.left-aligned.md-center-aligned
+		.title
+			h1=page.title+"."
+		.content-wrap.slider#clients
+			- for(var j=0; j<page.content.length;j++)
+				- var content = page.content[j];
+				div(class=j==0 ? 'active' : '').module.slide-cont
+					h2
+						a(href=content.url).no-decor=content.h1
+					h3
+						a(href=content.url).no-decor=content.h2
+					- for(var i=0; i<content.p.length;i++)
+						- var par = content.p[i];
+						p=par
+			.slide-dots
+				//- .arrow(onclick="script.slider.goLeft(\"clients\");")
+				//- 	.left-arrow
+				.btn-container
+					.dots-container
+						- for(var j=0; j<page.content.length;j++)
+							- ;
+							.dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"clients\");")
+				//- .arrow(onclick="script.slider.goRight(\"clients\");")
+				//- 	.right-arrow
