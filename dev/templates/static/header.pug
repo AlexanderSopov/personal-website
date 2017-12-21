@@ -1,0 +1,16 @@
+
+//
+  HEADER STICKY, MENU AND LOGO
+header.stickyHD
+  div#logo(onclick="script.nav.goTo(this)")
+    h3=logo+"."
+//
+  div#navbar(onclick="script.nav.toggle()")
+    ul
+      - for (var i=1; i<activePage.sections.length;i++)
+        - var title = activePage.sections[i].title, url = "#"+activePage.title;
+        li(onclick="script.nav.goTo(this)", data-value=title, id=title+"-nav")
+          p!= title+"."
+  HEADER-IMG, SUPPOSED TO CHANGE BUT FUCK IT, KEEP IT STATIC ATM
+  ***
+section#header-padding

@@ -4,7 +4,7 @@ section(id=page.title).white
 			h1=page.title+"."
 		.content-wrap.slider#clients
 			- for(var j=0; j<page.content.length;j++)
-				- var content = page.content[j];
+				- var content = page.content[j]; //console.log(page.content.length);
 				div(class=j==0 ? 'active' : '').module.slide-cont
 					h2
 						a(href=content.url).no-decor=content.h1
@@ -13,13 +13,15 @@ section(id=page.title).white
 					- for(var i=0; i<content.p.length;i++)
 						- var par = content.p[i];
 						p=par
+			- console.log("\n\n\n")
 			.slide-dots
 				//- .arrow(onclick="script.slider.goLeft(\"clients\");")
 				//- 	.left-arrow
 				.btn-container
 					.dots-container
-						- for(var j=0; j<page.content.length;j++)
-							- ;
+						- var looper = page.content.length;
+						- for(var j=0; j<looper; j++)
+							- console.log(j);
 							.dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"clients\");")
 				//- .arrow(onclick="script.slider.goRight(\"clients\");")
 				//- 	.right-arrow

@@ -14,33 +14,17 @@ html(lang="en")
     script
       include ../../dist/js/bundle.js
   body
-    //
-      HEADER STICKY, MENU AND LOGO
-    header.stickyHD
-      div#logo(onclick="script.nav.goTo(this)")
-        h3=logo+"."
-    //
-      div#navbar(onclick="script.nav.toggle()")
-        ul
-          - for (var i=1; i<activePage.sections.length;i++)
-            - var title = activePage.sections[i].title, url = "#"+activePage.title;
-            li(onclick="script.nav.goTo(this)", data-value=title, id=title+"-nav")
-              p!= title+"."
-   
-    //
-      HEADER-IMG, SUPPOSED TO CHANGE BUT FUCK IT, KEEP IT STATIC ATM
-      ***
-    section#header-padding
+    include static/header.pug
     //- section#header-img
-    include includes/introduction.pug
+    include index/introduction.pug
       - var page=activePage.sections[1], color="#1a1b20";
     include modules/angled-line.pug
 
     - page = activePage.sections[2], color="white";
-    include includes/xp.pug
+    include index/xp.pug
     - var page=activePage.sections[1], color="#1a1b20";
-    include includes/clients.pug
+    include index/clients.pug
       - page = activePage.sections[3], color="blue";
-    include includes/footer.pug
+    include static/footer.pug
 
         
