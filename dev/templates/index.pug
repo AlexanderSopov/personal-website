@@ -1,30 +1,16 @@
-doctype html
-html(lang="en")
-  head
-    title= "Alexander - " + activePage.title
-    meta(charset="utf-8")
-    meta(name="description", content="Personal Portfolio")
-    meta(name="author", content="Alexander Sopov")
-    meta(name="viewport", content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no")
-    link(href="https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Sans:300,400", rel="stylesheet")
-    link(href="https://fonts.googleapis.com/css?family=Montserrat:300|Source+Code+Pro:600,900" rel="stylesheet")
-    style
-      include ../../dist/css/style.css
-    script(src="https://code.jquery.com/jquery-2.2.4.min.js")
-    script
-      include ../../dist/js/bundle.js
-  body
-    include static/header.pug
-    //- section#header-img
-    include index/introduction.pug
-      - var page=activePage.sections[1], color="#1a1b20";
-    include modules/angled-line.pug
-
-    - page = activePage.sections[2], color="white";
-    include index/xp.pug
+extends static/layout.pug
+block bodyBox
+  include static/header.pug
+  //- section#header-img
+  include index/introduction.pug
     - var page=activePage.sections[1], color="#1a1b20";
-    include index/clients.pug
-      - page = activePage.sections[3], color="blue";
-    include static/footer.pug
+  include modules/angled-line.pug
 
-        
+  - page = activePage.sections[2], color="white";
+  include index/xp.pug
+  - var page=activePage.sections[1], color="#1a1b20";
+  include index/clients.pug
+    - page = activePage.sections[3], color="blue";
+  include static/footer.pug
+
+      

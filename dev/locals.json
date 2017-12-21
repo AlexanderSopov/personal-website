@@ -115,6 +115,11 @@
 					}]
 				}
 			]
+		},
+		"blog":{
+			"filename":"blog",
+			"title":"The Unusual Blog",
+			"sections":[]
 		}
 	},
 	"logo":"Alexander",
