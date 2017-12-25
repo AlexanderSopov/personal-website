@@ -1,28 +1,34 @@
 section(id=page.title, class=i==0 ? 'active' : '').black
   .page.left-aligned
-    .title.md-center-aligned
+    .title
       h1=page.title+"."
     .content-wrap.slider#xp-slider
       - for(var j=0; j<page.industries.length;j++)
         - var industry = page.industries[j];
         div(id=industry.h1, class=j==0 ? 'active' : '').module.slide-cont
-          h2.md-center-aligned=industry.h1
-          table
-            tr
-              - for(var n=0; n<industry.jobs.length; n++)
-                - var job = industry.jobs[n];
-                td
-                  h3=job.h2
-                  h4=job.h3
-                  - for(var k=0; k<job.p.length;k++)
-                    - var p = job.p[k];
-                      p=p
+          .md-8
+            h2=industry.h1
+            p="Short and brief description of my areas of knowledge, stripped off of any bullshit and cheap shots at philosophy"
+            ul
+              li="A little and short"
+              li="List of projects"
+              li="And/Or competences"
+          .md-4
+            h1=" "
+            .md-6
+              img(src="http://via.placeholder.com/300x300").icon
+            .md-6
+              img(src="http://via.placeholder.com/300x300").icon
+            .md-6
+              img(src="http://via.placeholder.com/300x300").icon
+            .md-6
+              img(src="http://via.placeholder.com/300x300").icon
       .slide-dots.white-slider
         //- .arrow(onclick="script.slider.goLeft(\"xp-slider\");")
         //-   .left-arrow
         .btn-container
           .dots-container
-            - for(var j=0; j<industry.jobs.length;j++)
+            - for(var j=0; j<page.industries.length;j++)
               - ;
               .dot(class=j==0?"active":"" onclick="script.slider.goTo("+j+", \"xp-slider\");")
         //- .arrow(onclick="script.slider.goRight(\"xp-slider\");")

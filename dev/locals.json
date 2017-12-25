@@ -10,9 +10,6 @@
 					"content":{
 						"h2":"Not your usual engineer",
 						"p": [
-							"<strong>A two-times Swedish Champion in Heavy Weight Boxing.</strong> Comedian on live TV and a writer in highly ranked blogs.",
-							"<strong>It's fair to say I'm not your usual engineer.</strong> I'm well spoken, I focus on the big picture and I bring a wide range of skills to the table.",
-							"<strong>I specialise in understanding your needs</strong> and communicating the best possible solutions in a way that saves time and energy, enabling you to focus on your mission."
 						],
 						"h3": ""
 					}
@@ -22,31 +19,32 @@
 						"h1":"Qamcom Research & Technology",
 						"h2": "Signal Processing Experts",
 						"p": [
-							"Qamcom is a world-class expert in signal processing and they work in a spectrum of applications, ranging from Communication Technology to Autonomous Drive.", "Most of Qamcom employees are PhD's or industry veterans and so require a high precision on their orders and demand quality in the work that I do for them.", "As such, I apreciate our collaboration since it pushes me to my limits every time, which is where I love to live."
+							"Qamcom is a world-class expert in signal processing who work in applications ranging from Communication Technology to Autonomous Drive.",
+							"Qamcom employees are PhD's or industry veterans and require high precision and quality from their consultants."
+
 						],
 						"url":"http://qamcom.se"
 					},{
 						"h1":"Bobby Studio",
 						"h2": "Digital Content Artists",
 						"p": [
-							"I'm a software engineer. These guys are artists. They make the web, and the brands that populate it, beautiful and cool, telling their story in a way that captivates the audience.", "Working with Bobby is inspirational, fun and, for lack of better words, beautiful."
+							"These guys are artists. They make the web, and the brands that populate it, beautiful and cool by helping them tell their unique stories in a way that captivates the audience.",
+							"Bobby thrives by being unique. They practice what they preach and the results they achieve are astonishing!"
 						],
 						"url":"http://bobby.se"
 					},{
 						"h1":"Isolerteknik AB",
 						"h2": "Web Development",
 						"p": [
-							"\"If it is'nt broken, don't fix it\", right? Well, sometimes what you need is a bit of sprucing up and that's exactly what isolerteknik needed for their website!",
-							"They had a website that worked well for them, and they're in a conservative business so they didn't want it changed too much, but they needed it updated and adapted into the modern world.",
-							"So I took their old design, made it responsive to fit in with multiple screens and rewrote the code to work well with modern browsers, and voila!",
-							"The result that they got is a website that any old chap will feel familiar with - whether he or she is on their phone, tablets or desktop - and that is at the same time ready for the future."
+							"Isolerteknik is a quality ensurance company that monitors the health of various types of infrastructure.",
+							"They needed to get their website tidied up and responsive to various screen sizes and that was how our collaboration first began."
 						],
 						"url":"http://isolerteknik.se"
 					},{
 						"h1":"TeddyBear Studio",
 						"h2": "Content Management System",
 						"p": [
-							"Most blogs (and other websites, too) are using a CMS like Wordpress. These tools are great if you're a news outlet or online media company that generates content every day. If that's not the case, then you're really slowing down your users experience and burdering your finances with expensive hosting...", "\"But it's so simple to use\", right? Well, what if there was a CMS for the middle guy? A CMS that pre-compiles websites into static files that gets served to the reader in an instant?", "Well, certainly, the search-algorithms at Google loves that, and so too does the reader.", "This is what Teddybear Studios, a Gothenburg based startup is working on."
+							"What if there was a CMS for the middle guy? A CMS that pre-compiles websites into static files that gets served to the reader in an instant?", "Well, certainly, the search-algorithms at Google loves that, and so too does the reader.", "This is what Teddybear Studios, a Gothenburg based startup is working on."
 						]
 					}]
 				},{
@@ -93,6 +91,10 @@
 								"Contact me for more information!"
 							]
 						}]
+					},{
+						"h1":"Artifical Intelligence",
+						"jobs":[]
+
 					}]
 				},{
 					"title":"Contact",

@@ -1,15 +1,19 @@
 section(id=page.title).white
-	.page.left-aligned.md-center-aligned
+	.page.left-aligned
 		.title
 			h1=page.title+"."
 		.content-wrap.slider#clients
 			- for(var j=0; j<page.content.length;j++)
 				- var content = page.content[j]; //console.log(page.content.length);
-				div(class=j==0 ? 'active' : '').module.slide-cont
-					h2
-						a(href=content.url).no-decor=content.h1
-					h3
-						a(href=content.url).no-decor=content.h2
+				div(class=j==0 ? 'active' : '').module.slide-cont.float-right
+					.md-4
+						h2=" "
+						img(src="http://via.placeholder.com/300x100").client-logo
+					.md-8
+						h2
+							a(href=content.url).no-decor=content.h1
+						h3
+							a(href=content.url).no-decor=content.h2
 					- for(var i=0; i<content.p.length;i++)
 						- var par = content.p[i];
 						p=par

@@ -18,7 +18,35 @@
 		width _width
 		margin auto
 		padding 50px 0
+	
+	.md-6, .md-4, .md-8
+		height auto
+		float left
+	.md-6
+		width 50%
+	.md-4
+		width 34%
+	.md-8
+		width 66%
 		
+	.md-6
+		.icon
+			width calc(100% - 5px)
+			height auto
+	.md-4:nth-child(odd)
+		.icon
+			padding-right 5px
+	.md-4:nth-child(even)
+		.icon
+			padding-left 5px
+	.client-logo
+		width calc(100% - 20px)
+		padding-left 20px
+		max-height 200px
+	
+	.float-right
+		> div
+			float right
 	.module
 		table
 		tr
