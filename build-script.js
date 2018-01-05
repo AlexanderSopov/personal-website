@@ -4,7 +4,7 @@ var utils	= require('./lib/utils.js'),
 				locals: utils.getLocals(),
 				options:{
 					compileDebug:true,
-					pretty:false
+					pretty:true
 				},
 				path: "./dev/templates/"
 			},
@@ -13,7 +13,7 @@ var utils	= require('./lib/utils.js'),
 		destPath: "./dist/js/bundle.js",
 		presets: ["es2015"],
 		options: {
-			minified: true,
+			minified: false,
 			comments: false,
 		}
 	},

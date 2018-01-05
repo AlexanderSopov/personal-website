@@ -1,5 +1,51 @@
 extends static/layout.pug
 block bodyBox
-  include static/header.pug
-  
-  include static/footer.pug
+	include static/header.pug
+	section
+		.page
+			.content-wrap
+				.md-4.right-float
+					#best-of
+						ul
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+					#latest-commented
+						ul
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+					#archive
+						ul
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+							li
+								a(href="")="hej"
+				.md-8.right-float
+					.blog-post
+						.blog-post-head
+							h1="Första inlägget"
+						.blog-image
+							img(src="img/headerImg-2-mini.jpg")
+						.text
+							p
+								strong="Ingress till inlägget är nog rätt overkill men vi testar och ser."
+							p="Därefter kommer vanliga inlägg, det vet du bror. vad mer kan jag säga liksom"
+							p="Forutom att du är en test(ikel)!"
+						.blog-post-foot
+	
+	include static/footer.pug

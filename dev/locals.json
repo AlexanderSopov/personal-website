@@ -10,6 +10,8 @@
 					"content":{
 						"h2":"Not your usual engineer",
 						"p": [
+							"Boxer, Comedian, Writer. I spend a lot of time thinking deeply on the engineering problems of our time, but unlike many in my profession, I enjoy resolving conflicts and communicate with masses of people.",
+							"This helps me in my interaction with my clients because we easily understand each other and I'm able to condense their needs into clear solutions that they can comprehend."
 						],
 						"h3": ""
 					}
@@ -23,6 +25,7 @@
 							"Qamcom employees are PhD's or industry veterans and require high precision and quality from their consultants."
 
 						],
+						"img":"img/qamcom.svg",
 						"url":"http://qamcom.se"
 					},{
 						"h1":"Bobby Studio",
@@ -31,69 +34,107 @@
 							"These guys are artists. They make the web, and the brands that populate it, beautiful and cool by helping them tell their unique stories in a way that captivates the audience.",
 							"Bobby thrives by being unique. They practice what they preach and the results they achieve are astonishing!"
 						],
+						"img":"img/bobby-wo.png",
 						"url":"http://bobby.se"
 					},{
 						"h1":"Isolerteknik AB",
 						"h2": "Web Development",
 						"p": [
 							"Isolerteknik is a quality ensurance company that monitors the health of various types of infrastructure.",
-							"They needed to get their website tidied up and responsive to various screen sizes and that was how our collaboration first began."
+							"Our collaboration began when their website needed to be responsive to different screen sizes."
 						],
+						"img":"img/isolerteknik.png",
 						"url":"http://isolerteknik.se"
 					},{
 						"h1":"TeddyBear Studio",
 						"h2": "Content Management System",
 						"p": [
-							"What if there was a CMS for the middle guy? A CMS that pre-compiles websites into static files that gets served to the reader in an instant?", "Well, certainly, the search-algorithms at Google loves that, and so too does the reader.", "This is what Teddybear Studios, a Gothenburg based startup is working on."
+							"Teddybear is working on a CMS for the middle guy. A CMS that pre-compiles websites into static files that gets served to the reader in an instant.", "The search-algorithms at Google love that and so, too, does the readers."
 						]
 					}]
 				},{
 					"title":"Xp",
 					"industries":  [{
 						"h1":"Web Development",
-						"jobs":[{
-							"h2": "Front End Designer",
-							"h3": "Building User Interfaces",
-							"p": [
-								"I've designed UX for applications that are critical, daily tools for 200 engineers.",
-								"Every decision I took would result in either relieve or frustration for the user and that responsibility required diligence on my part.",
-								"Condensing those 200 engineers down to a couple of archetypes, and designing the UX to fit those perfectly was a journey, and taught me the importance of listening and empathizing with different types of brains, backgrounds and experiences."
-							]
-						},{
-							"h2": "Back End Architect",
-							"h3": "Making computers compute correctly",
-							"p": [
-								"I've designed web-applications for large scale operations.",
-								"Stability, Security and Simplicity are the values I keep in the forefront of everything I design.",
-								"My job as a backend engineer is to make sure that no one ever thinks of me, since that is a telltale sign that everything works as it should, so perfectly that it's taken for granted as magic."
-							]
-						}]
+						"p": [
+							"I have fullstack capabilities and believe in the flexibility to allow the scope of the project to dictate the technology - and not the other way around."
+						],
+						"bullet":[
+							"Ultra-fast, Static Websites",
+							"Interactive Web Applications",
+							"Single Page Applications"
+						],
+						"img":[
+							{
+								"url":"img/html5-wo.png",
+								"alt":"HTML 5"
+							},
+							{
+								"url":"img/css-wo.png",
+								"alt":"CSS 3"
+							},
+							{
+								"url":"img/nodejs-wo.png",
+								"alt":"Node JS"
+							},
+							{
+								"url":"img/java-wo.png",
+								"alt":"Java"
+							}
+						]
 					},{
 						"h1":"Game Development",
-						"jobs":[{
-							"h2": "Game Design",
-							"h3": "Designing Interactive Entertainment",
-							"p": [
-								"Games unfold through the players interactions with the world, making him or her a character of the story",
-								"Designing games demands the focus to condense an endless amount of complexities into simple consequences that feels believeable and immerses the player into the world.",
-								"As such, it demands the capacity to balance variation of possibility with quality of outcome; the player needs to feel like they can do anything, yet every move he or she does needs to have a believable consequence.",
-								"That's what good game design is all about"
-
-							]
-						},{
-							"h2": "VR/AR",
-							"h3": "The next revolution in Simulated Reality",
-							"p": [
-								"There are psychologists who believe our capacity to tell stories helped us survive.",
-								"In their view, stories are simulated realities, abstracting the meta truths of life by running experiments on different solutions to issues in life.",
-								"Games are the next step of our capacity as cultures to run those simulations, and VR/AR the next step of games.",
-								"I am currently experimenting with different solutions to the existing problems of navigation and interaction inside the Virtual 3D world and I'm making headway in solving some deep issues.",
-								"Contact me for more information!"
-							]
-						}]
+						"p": [
+							"I create Virtual Reality Experiences that brings forth the imagination and vision of my clients into life."
+						],
+						"bullet":[
+							"Virtual Reality",
+							"Augmented Reality",
+							"Gameplay Scripting"
+						],
+						"img":[
+							{
+								"url":"img/htc-vive.jpg",
+								"alt":"HTC Vive"
+							},{
+								"url":"img/unrealengine-wo.png",
+								"alt":"Unreal Engine Logo"
+							},{
+								"url":"img/unity-wo.jpg",
+								"alt":"Unity Engine Logo"
+							},{
+								"url":"img/c++-wo.png",
+								"alt":"C++ Logo"
+							}
+						]
 					},{
 						"h1":"Artifical Intelligence",
-						"jobs":[]
+						"p": [
+							"I've begun to dig deep into the technology of contemporary AI and I've spent many years thinking deeply about the future of computer intelligence. I am currently available for consultation on the ethics and consequences of intelligent systems and their application in the world."
+						],
+						"bullet":[
+							"Deep Learning",
+							"Man Vs Machine",
+							"Ethics & Consequences"
+						],
+						"img":[
+							{
+								"url":"img/python-wo.png",
+								"alt":"Python"
+							},
+							{
+								"url":"img/daniel-dennet-wo.jpg",
+								"alt":"Daniel Dennet"
+							},
+							{
+								"url":"img/samharris-wo.jpg",
+								"alt":"Sam Harris"
+							},
+							{
+								"url":"img/coursera-wo.jpg",
+								"alt":"Coursera Courses on the topic"
+							}
+						]
 
 					}]
 				},{

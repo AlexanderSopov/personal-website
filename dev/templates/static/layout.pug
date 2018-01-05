@@ -6,11 +6,13 @@ html(lang="en")
     meta(name="description", content="Personal Portfolio")
     meta(name="author", content="Alexander Sopov")
     meta(name="viewport", content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no")
-    link(href="https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Sans:300,400", rel="stylesheet")
-    link(href="https://fonts.googleapis.com/css?family=Montserrat:300|Source+Code+Pro:600,900" rel="stylesheet")
+    //- link(href="https://fonts.googleapis.com/css?family=Gentium+Basic|Josefin+Sans:300,400", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet")
+    //-|Source+Code+Pro:600,900" rel="stylesheet")
     style
       include ../../../dist/css/style.css
-    script(src="https://code.jquery.com/jquery-2.2.4.min.js")
+    script
+      include ../../../dist/js/jquery-2.2.4.min.js
     script
       include ../../../dist/js/bundle.js
   body
