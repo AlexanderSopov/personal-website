@@ -10,8 +10,8 @@
 					"content":{
 						"h2":"Not your usual engineer",
 						"p": [
-							"Boxer, Comedian, Writer. I spend a lot of time thinking deeply on the engineering problems of our time, but unlike many in my profession, I enjoy resolving conflicts and communicate with masses of people.",
-							"This helps me in my interaction with my clients because we easily understand each other and I'm able to condense their needs into clear solutions that they can comprehend."
+							"Besides an engineer, I'm also a Boxer, Comedian and Writer. So unlike many in my profession, I enjoy resolving conflicts and communicate with masses of people.",
+							"This helps me communicate clearly with my clients and I'm able to condense their needs into clear solutions that they can comprehend."
 						],
 						"h3": ""
 					}
@@ -57,7 +57,7 @@
 					"industries":  [{
 						"h1":"Web Development",
 						"p": [
-							"I have fullstack capabilities and believe in the flexibility to allow the scope of the project to dictate the technology - and not the other way around."
+							"I have fullstack capabilities and believe in the flexibility that allows the scope of the project to dictate the technology - and not the other way around."
 						],
 						"bullet":[
 							"Ultra-fast, Static Websites",
