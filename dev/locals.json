@@ -8,10 +8,12 @@
 					"title": "Alexander Sopov",
 					"id":"introduction",
 					"content":{
-						"h2":"Not your usual engineer",
+						"h2":"Software architecture made easy",
 						"p": [
-							"Besides an engineer, I'm also a Boxer, Comedian and Writer. So unlike many in my profession, I enjoy resolving conflicts and communicate with masses of people.",
-							"This helps me communicate clearly with my clients and I'm able to condense their needs into clear solutions that they can comprehend."
+							"You care about keeping your budget, having control over the process and do a heck of a delivery. I'm able to help you with that.",
+							"I offer a straight forward approach to developing software that takes the guesswork out of the equation.",
+							" - Giving you more control of the progress and a headache-free delivery."
+
 						],
 						"h3": ""
 					}
@@ -31,38 +33,23 @@
 						"h1":"Bobby Studio",
 						"h2": "Digital Content Artists",
 						"p": [
-							"These guys are artists. They make the web, and the brands that populate it, beautiful and cool by helping them tell their unique stories in a way that captivates the audience.",
-							"Bobby thrives by being unique. They practice what they preach and the results they achieve are astonishing!"
+							"Bobby makes the web, and the brands that populate it, beautiful and cool by helping them tell their unique stories in a way that captivates their visitors.",
+							"Bobby thrives by being unique. They practice discipline in their craft and the results they achieve are astonishing!"
 						],
 						"img":"img/bobby-wo.png",
 						"url":"http://bobby.se"
-					},{
-						"h1":"Isolerteknik AB",
-						"h2": "Web Development",
-						"p": [
-							"Isolerteknik is a quality ensurance company that monitors the health of various types of infrastructure.",
-							"Our collaboration began when their website needed to be responsive to different screen sizes."
-						],
-						"img":"img/isolerteknik.png",
-						"url":"http://isolerteknik.se"
-					},{
-						"h1":"TeddyBear Studio",
-						"h2": "Content Management System",
-						"p": [
-							"Teddybear is working on a CMS for the middle guy. A CMS that pre-compiles websites into static files that gets served to the reader in an instant.", "The search-algorithms at Google love that and so, too, does the readers."
-						]
 					}]
 				},{
-					"title":"Xp",
+					"title":"Services",
 					"industries":  [{
 						"h1":"Web Development",
 						"p": [
-							"I have fullstack capabilities and believe in the flexibility that allows the scope of the project to dictate the technology - and not the other way around."
+							"I offer fullstack development front-to-end and am able to help you take on projects at any stage from ideation to delivery."
 						],
 						"bullet":[
-							"Ultra-fast, Static Websites",
-							"Interactive Web Applications",
-							"Single Page Applications"
+							"Beautifully designed and fast websites",
+							"Interactive web applications",
+							"Single page applications (SPA)"
 						],
 						"img":[
 							{
@@ -85,12 +72,12 @@
 					},{
 						"h1":"Game Development",
 						"p": [
-							"I create Virtual Reality Experiences that brings the imagination and vision of my clients to life."
+							"I specialise in VR- and AR-technologies and deliver high-end gameplay interaction expertise"
 						],
 						"bullet":[
 							"Virtual Reality",
 							"Augmented Reality",
-							"Gameplay Scripting"
+							"Gameplay Interaction and Real World simulations"
 						],
 						"img":[
 							{
@@ -107,35 +94,6 @@
 								"alt":"C++ Logo"
 							}
 						]
-					},{
-						"h1":"Artifical Intelligence",
-						"p": [
-							"I've begun to dig deep into the technology of contemporary AI and I've spent many years thinking deeply about the future of computer intelligence. I am currently available for consultation on the ethics and consequences of intelligent systems and their application in the world."
-						],
-						"bullet":[
-							"Deep Learning",
-							"Man Vs Machine",
-							"Ethics & Consequences"
-						],
-						"img":[
-							{
-								"url":"img/python-wo.png",
-								"alt":"Python"
-							},
-							{
-								"url":"img/daniel-dennet-wo.jpg",
-								"alt":"Daniel Dennet"
-							},
-							{
-								"url":"img/samharris-wo.jpg",
-								"alt":"Sam Harris"
-							},
-							{
-								"url":"img/coursera-wo.jpg",
-								"alt":"Coursera Courses on the topic"
-							}
-						]
-
 					}]
 				},{
 					"title":"Contact",
